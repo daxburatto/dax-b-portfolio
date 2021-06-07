@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
       },
 }))
 
-const cards = [1, 2, 3, 4];
+const cards = [1];
 
 const Home = () => {
     const classes = useStyles()
@@ -55,7 +55,7 @@ const Home = () => {
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
               About me -
-              I am a studying Full Stack Web Developer just trying to learn little by little. I studied through a program at University of Texas Austin
+              I am a studying Full Stack Web Developer just trying to learn little by little. I studied through a program at University of Texas Austin. This is a placeholder to turn in my project until I can spend some time on it.
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
@@ -80,23 +80,23 @@ const Home = () => {
               <Card className={classes.card}>
                 <CardMedia
                   className={classes.cardMedia}
-                  image="https://source.unsplash.com/random"
-                  title="Image title"
+                  image="https://upload.wikimedia.org/wikipedia/commons/b/b2/Pops-vinyls.png"
+                  title="Pops-vinyls"
                 />
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Heading
+                    Pop's Vinyls
                   </Typography>
                   <Typography>
-                    This is a media card. You can use this section to describe the content.
+                    This is a react app created by myself and group members in bootcamp, it is an imagening of a record store website.
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" color="primary">
-                    View
+                  <Button size="small" color="primary" href="https://fathomless-garden-67392.herokuapp.com/">
+                    View Deploy
                   </Button>
-                  <Button size="small" color="primary">
-                    Edit
+                  <Button size="small" color="primary" href="https://github.com/chris6661/e-commerce">
+                    View Github
                   </Button>
                 </CardActions>
               </Card>
