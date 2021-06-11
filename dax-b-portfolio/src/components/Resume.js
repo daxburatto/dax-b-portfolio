@@ -117,11 +117,11 @@ const Resume = () => {
         Working Experience
       </Typography>
       <Box component="div" className={classes.timeLine}>
-        <Typography
+      <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -129,27 +129,24 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            web design
+            Full Stack Web Development
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Studying at University of Texas at Austin
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            While I am still working at Pita Fusion my main focus is heavily on learning everything I can about coding. The biggest issue to me is I am a learn by experience person and need to actually do the things I want to learn properly. I am currently seeking employment in the industry and I am comfortable working Front-End and Back-End, I also have a massive love for video games and would love to learn more about making those. I would say Covid has helped me gain the time and confidence to pursue this interest, which has now become a passion of mine.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          2020
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -157,27 +154,24 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            Pita Fusion
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Started October 2020 - Present
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Currently working at Pita Fusion part time while studying Full Stack Web Development through University of Texas Austin Bootcamp. Pita is a great place to work while studying and I have learned to grill and make pitas, I also spend a ton of time interacting with customers. Working and studying through the pandemic has been difficult, but I wanted to take the oppurtunity of being home in quarentine to better myself.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2015
+          2019
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -185,20 +179,17 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Fullstack Javascript
+            Lifelast Inc
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Feb 2019 till Oct 2020
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Lifelast Inc is an industrial coating and piping company based in Austin, Tx. While working there I was mostly working on the logistics and warehousing side unloading/loading trucks, organizing the warehouse, taking inventory, cleaning. That was fine, but I wanted more and about 10 months in I started doing some of the mixing and chemistry side which helped me learn a lot.
           </Typography>
         </Box>
         <Typography
@@ -213,20 +204,17 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Django & React
+            Starbucks
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            May 2016 till Feb 2019
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Working at Starbucks was great for my age, 20 years at the time. I was a barista trainer and studied to become a coffee master and had a great time. Helping customers in a coffee shop setting really opened my eyes to the enjoyment of a community.
           </Typography>
         </Box>
       </Box>

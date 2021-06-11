@@ -63,7 +63,7 @@ const Navbar = () => {
 
   const sideList = () => (
     <Box className={classes.menuSliderContainer} component="div">
-      <Avatar className={classes.avatar} src={avatar} alt="Mahmudul Alam" />
+      <Avatar className={classes.avatar} src={avatar} alt="Dax Buratto" />
       <Divider />
       <List>
         {menuItems.map((item, i) => (
