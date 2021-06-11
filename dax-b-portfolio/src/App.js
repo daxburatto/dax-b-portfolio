@@ -1,20 +1,26 @@
-import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from './components/header'
-import Home from './components/home'
-import Work from './components/work'
-import Footer from './components/footer'
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import Home from "./components";
+import Resume from "./components/Resume";
+import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+
+import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <Route exact path = '/' component = {Home} />
-        <Route exact path = '/Work' component = {Work} />
-        <Footer />
-      </div>
-    </Router>
+    <React.Fragment>
+      <CssBaseline />
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+      </Switch>
+    </React.Fragment>
   );
 }
 

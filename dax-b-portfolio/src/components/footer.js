@@ -1,43 +1,35 @@
-import { makeStyles } from '@material-ui/core'
-import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import BottomNavigation from "@material-ui/core/BottomNavigation";
+import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
+import Facebook from "@material-ui/icons/Facebook";
+import Twitter from "@material-ui/icons/Twitter";
+import Instagram from "@material-ui/icons/Instagram";
 
-import React from 'react'
-
-function Copyright() {
-    return (
-      <Typography variant="body2" color="textSecondary" align="center">
-        {'Copyright © '}
-        <Link color="inherit" href="https://material-ui.com/">
-          Your Website
-        </Link>{' '}
-        {new Date().getFullYear()}
-        {'.'}
-      </Typography>
-    );
-}
-
-const useStyles = makeStyles((theme) => ({
-    footer: {
-        backgroundColor: theme.palette.background.paper,
-        padding: theme.spacing(4),
-    }
-}))
+const useStyles = makeStyles({
+  bottomNavContainer: {
+    background: "#222",
+  },
+  root: {
+    "& .MuiSvgIcon-root": {
+      fill: "tan",
+      "&:hover": {
+        fill: "tomato",
+        fontSize: "1.8rem",
+      },
+    },
+  },
+});
 
 const Footer = () => {
-    const classes = useStyles()
+  const classes = useStyles();
 
-    return(
-        <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Footer
-        </Typography>
-        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Something here to give the footer a purpose!
-        </Typography>
-        <Copyright />
-      </footer>
-    )
-}
-
-export default Footer
+  return (
+    <BottomNavigation className={classes.bottomNavContainer}>
+      <BottomNavigationAction icon={<Facebook />} className={classes.root} />
+      <BottomNavigationAction icon={<Twitter />} className={classes.root} />
+      <BottomNavigationAction icon={<Instagram />} className={classes.root} />
+    </BottomNavigation>
+  );
+};
+export default Footer;
